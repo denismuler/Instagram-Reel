@@ -1,2 +1,2 @@
-# Instagram Reel
- Instagram reel layout using SwiftUI
+# Instagram Reels
+ Instagram reels layout using SwiftUI
