@@ -11,6 +11,17 @@
 		CA7405192B08D142002254CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7405182B08D142002254CD /* ContentView.swift */; };
 		CA74051B2B08D145002254CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA74051A2B08D145002254CD /* Assets.xcassets */; };
 		CA74051E2B08D145002254CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA74051D2B08D145002254CD /* Preview Assets.xcassets */; };
+		CA7405272B08D318002254CD /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7405262B08D318002254CD /* Reel.swift */; };
+		CA74052A2B08D43A002254CD /* reel1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA7405292B08D43A002254CD /* reel1.mp4 */; };
+		CA74052D2B08D450002254CD /* reel2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA74052C2B08D450002254CD /* reel2.mp4 */; };
+		CA74052F2B08D45A002254CD /* reel4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA74052E2B08D45A002254CD /* reel4.mp4 */; };
+		CA7405312B08D463002254CD /* reel3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA7405302B08D463002254CD /* reel3.mp4 */; };
+		CA7405332B08D4E2002254CD /* reel5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA7405322B08D4E1002254CD /* reel5.mp4 */; };
+		CA7405352B08D63E002254CD /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7405342B08D63E002254CD /* Like.swift */; };
+		CA7405372B08D6B3002254CD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7405362B08D6B3002254CD /* Home.swift */; };
+		CA7405392B08D9D9002254CD /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7405382B08D9D9002254CD /* ReelView.swift */; };
+		CA74053B2B08DA13002254CD /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA74053A2B08DA13002254CD /* CustomVideoPlayer.swift */; };
+		CA74053F2B08E5B2002254CD /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA74053E2B08E5B2002254CD /* OffsetKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		CA7405182B08D142002254CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA74051A2B08D145002254CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA74051D2B08D145002254CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA7405262B08D318002254CD /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
+		CA7405292B08D43A002254CD /* reel1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel1.mp4; sourceTree = "<group>"; };
+		CA74052C2B08D450002254CD /* reel2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel2.mp4; sourceTree = "<group>"; };
+		CA74052E2B08D45A002254CD /* reel4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel4.mp4; sourceTree = "<group>"; };
+		CA7405302B08D463002254CD /* reel3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel3.mp4; sourceTree = "<group>"; };
+		CA7405322B08D4E1002254CD /* reel5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = reel5.mp4; path = ../../../../../../Downloads/reel5.mp4; sourceTree = "<group>"; };
+		CA7405342B08D63E002254CD /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		CA7405362B08D6B3002254CD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CA7405382B08D9D9002254CD /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		CA74053A2B08DA13002254CD /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		CA74053E2B08E5B2002254CD /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +73,12 @@
 		CA7405152B08D142002254CD /* InstagramReel */ = {
 			isa = PBXGroup;
 			children = (
-				CA7405162B08D142002254CD /* InstagramReelApp.swift */,
-				CA7405182B08D142002254CD /* ContentView.swift */,
+				CA74053C2B08E58C002254CD /* Keys */,
+				CA7405282B08D420002254CD /* Videos */,
 				CA7405242B08D2EF002254CD /* View */,
 				CA7405252B08D2F5002254CD /* Model */,
+				CA7405162B08D142002254CD /* InstagramReelApp.swift */,
+				CA7405182B08D142002254CD /* ContentView.swift */,
 				CA74051A2B08D145002254CD /* Assets.xcassets */,
 				CA74051C2B08D145002254CD /* Preview Content */,
 			);
@@ -72,6 +96,9 @@
 		CA7405242B08D2EF002254CD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CA7405362B08D6B3002254CD /* Home.swift */,
+				CA7405382B08D9D9002254CD /* ReelView.swift */,
+				CA74053A2B08DA13002254CD /* CustomVideoPlayer.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -79,8 +106,30 @@
 		CA7405252B08D2F5002254CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CA7405262B08D318002254CD /* Reel.swift */,
+				CA7405342B08D63E002254CD /* Like.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CA7405282B08D420002254CD /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				CA7405292B08D43A002254CD /* reel1.mp4 */,
+				CA74052C2B08D450002254CD /* reel2.mp4 */,
+				CA7405302B08D463002254CD /* reel3.mp4 */,
+				CA74052E2B08D45A002254CD /* reel4.mp4 */,
+				CA7405322B08D4E1002254CD /* reel5.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		CA74053C2B08E58C002254CD /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				CA74053E2B08E5B2002254CD /* OffsetKey.swift */,
+			);
+			path = Keys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +191,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA74051E2B08D145002254CD /* Preview Assets.xcassets in Resources */,
+				CA7405332B08D4E2002254CD /* reel5.mp4 in Resources */,
+				CA74052A2B08D43A002254CD /* reel1.mp4 in Resources */,
+				CA74052D2B08D450002254CD /* reel2.mp4 in Resources */,
+				CA7405312B08D463002254CD /* reel3.mp4 in Resources */,
+				CA74052F2B08D45A002254CD /* reel4.mp4 in Resources */,
 				CA74051B2B08D145002254CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA74053B2B08DA13002254CD /* CustomVideoPlayer.swift in Sources */,
+				CA7405392B08D9D9002254CD /* ReelView.swift in Sources */,
+				CA74053F2B08E5B2002254CD /* OffsetKey.swift in Sources */,
 				CA7405192B08D142002254CD /* ContentView.swift in Sources */,
+				CA7405272B08D318002254CD /* Reel.swift in Sources */,
+				CA7405372B08D6B3002254CD /* Home.swift in Sources */,
+				CA7405352B08D63E002254CD /* Like.swift in Sources */,
 				CA7405172B08D142002254CD /* InstagramReelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
